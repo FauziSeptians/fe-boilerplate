@@ -1,10 +1,11 @@
+import { User } from '@/types/user';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
-interface AppState {
-      user: any | null;
+type AppState = {
+      user: User | null;
       isLoading: boolean;
-      setUser: (user: any) => void;
+      setUser: (user:  User) => void;
       setLoading: (loading: boolean) => void;
 }
 
