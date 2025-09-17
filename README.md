@@ -3,13 +3,13 @@ Mengulang setup project frontend dari nol itu melelahkan dan buang waktu. Templa
 
 ## Getting Started
 
-# Clone repo atau gunakan sebagai template
+### Clone repo atau gunakan sebagai template
 `git clone `
 
-# Install dependencies
+### Install dependencies
 `npm install`
 
-# Jalankan development server
+### Jalankan development server
 `npm run dev`
 
 ## Tech Stack
