@@ -13,7 +13,7 @@ Mengulang setup project frontend dari nol itu melelahkan dan buang waktu. Templa
 `npm run dev`
 
 ## Tech Stack
-- Next.js 14
+- Next.js
 - TypeScript
 - Tailwind CSS
 - Zustand
