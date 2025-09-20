@@ -4,7 +4,7 @@ Mengulang setup project frontend dari nol itu melelahkan dan buang waktu. Templa
 ## Getting Started
 
 #### Clone repo atau gunakan sebagai template
-`git clone `
+`use this template`
 
 #### Install dependencies
 `npm install`
