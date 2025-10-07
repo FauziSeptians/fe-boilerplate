@@ -1,4 +1,3 @@
-import axios from '@/lib/axios';
 import userManagement from '@/services/user-management';
 import { useQuery } from '@tanstack/react-query';
 
