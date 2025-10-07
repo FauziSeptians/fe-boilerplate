@@ -1,8 +1,8 @@
+import ReactQueryProvider from '@/components/providers/ReactQueryProvider';
+import '@/styles/globals.css';
+import { classNames } from '@/utils/classNames';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
-import './globals.css';
-import ReactQueryProvider from '@/components/providers/ReactQueryProvider';
-import { classNames } from '@/utils/classNames';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -30,7 +30,7 @@ export default function RootLayout({
         className={classNames(
           `${geistSans.variable}`,
           `${geistMono.variable}`,
-          "antialiased"
+          'antialiased'
         )}
       >
         <ReactQueryProvider>{children}</ReactQueryProvider>
