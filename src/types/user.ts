@@ -1,5 +1,4 @@
-export type User  = {
-    name : string,
-    phoneNumber : string;
-    age : number;
-}
+import { userSchema } from '@/validators/user';
+import z from 'zod';
+
+export type UserTypes = z.infer<typeof userSchema>;
