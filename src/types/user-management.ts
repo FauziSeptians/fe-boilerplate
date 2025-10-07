@@ -1,5 +1,5 @@
-import { AxiosResponse } from "axios";
+import { AxiosResponse } from 'axios';
 
 export type UserManagementImplementation = {
-    get<T = AxiosResponse>() : Promise<T>;
+  get<T = AxiosResponse>(): Promise<T>;
 };
