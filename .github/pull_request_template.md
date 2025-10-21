@@ -4,7 +4,7 @@
 
 <!-- Describe the new feature and its purpose -->
 
-This PR adds a new feature that...
+-
 
 ### Type
 
@@ -18,9 +18,7 @@ This PR adds a new feature that...
 
 <!-- Briefly describe how the feature is implemented -->
 
-- Added new components
-- Updated API integration
-- Refactored layout logic
+-
 
 ### Checklist
 
@@ -30,5 +28,4 @@ This PR adds a new feature that...
 - [ ] No console errors
 
 ### Related Issues
-
-Closes #...
+- 
