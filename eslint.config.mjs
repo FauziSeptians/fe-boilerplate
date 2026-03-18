@@ -11,6 +11,13 @@ const eslintConfig = defineConfig([
     'build/**',
     'next-env.d.ts',
   ]),
+  {
+    rules: {
+      // Masukkan custom rules kamu di sini, contoh:
+      'no-unused-vars': 'warn',
+      'prefer-const': ['error', { ignoreReadBeforeAssign: true }],
+    },
+  },
 ]);
 
 export default eslintConfig;
